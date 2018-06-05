@@ -1,0 +1,5 @@
+/*@title: Powerline, Non Obstruction */
+[f_code = 'AT005' and osm_tags_power = 'line'] [@sd < 200k] {
+	stroke: #473895;
+  	stroke-width: 20m;
+}

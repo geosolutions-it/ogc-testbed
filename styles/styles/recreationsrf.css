@@ -1,0 +1,17 @@
+/* @title Sports Ground */
+[f_code = 'AK040'] [@sd < 80k] {
+ 	fill-geometry: [wkb_geometry], [boundary(wkb_geometry)]; /* Outline ? */
+  	fill: #E8F3E2, none;
+  	stroke: none, #3EA250;
+  	stroke-opacity: 0, 1;
+  	stroke-width: 5m; /* 5 */
+ 	stroke-dasharray: 5 2.5; /* 50 25 can we use meter? */
+ 	stroke-offset: 2; /* Outline ? */
+}
+
+[f_code = 'AK040'] [@sd > 80k] [@sd < 200k] {
+  	/* not visible on small pitch*/ 
+ 	fill: url('file://symbols/sports_ground_wilson.svg');
+    fill-mime: 'image/svg';
+    fill-size: 6m;
+}

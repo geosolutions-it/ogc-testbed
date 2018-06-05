@@ -1,0 +1,6 @@
+/* @title Cemetery, Unknown */
+[f_code = 'AL030' and osm_tags_landuse = 'cemetery'] [@sd < 200k] {
+	stroke: #000000;
+  	stroke-width: 5m; /* 5 */
+  	stroke-dasharray: 5 2.5; /* 50 25 can we use meter ? */
+}

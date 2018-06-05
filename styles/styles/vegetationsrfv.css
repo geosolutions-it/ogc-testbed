@@ -1,0 +1,4 @@
+/* @title Woods. */
+[f_code = 'EC015' and osm_tags_landuse = 'forest'] [@sd < 1M] {
+	fill: #C2E4B9;
+}

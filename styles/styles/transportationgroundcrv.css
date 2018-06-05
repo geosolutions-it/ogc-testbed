@@ -1,0 +1,128 @@
+/* @title: Road Primary */
+[f_code = 'AP030' and rin_roi = '3'] {
+    [@sd < 25M][@sd > 2.5M] {
+      	stroke-width: 1.14, 0.9;
+      	stroke: #000000, #cb171a;
+    };
+  	[@sd < 2.5M][@sd > 500k] {
+      	stroke-width: 1.5, 1.14;
+      	stroke: #000000, #cb171a;
+    };
+  	[@sd < 500k][@sd > 100k] {
+      	stroke-width: 3, 2.25;
+      	stroke: #000000, #cb171a;
+    };
+  	[@sd < 100k][@sd > 5000] {
+      	stroke-width: 6.3, 4.655;
+      	stroke: #000000, #cb171a;
+    };
+  	[@sd < 5000][@sd > 100] {
+      	stroke-width: 12, 8;
+      	stroke: #000000, #cb171a;
+    };
+}
+/* @title: Bridge */
+[f_code = 'AQ040' and trs = '13'] {
+  	[@sd < 100k][@sd > 5000] {
+      	stroke-width: 12, 10;
+      	stroke: #000000, #ffffff;
+    };
+  	[@sd < 5000][@sd > 100] {
+      	stroke-width: 20, 14;
+      	stroke: #000000, #ffffff;
+        :nth-stroke(1) {
+			mark: circle;
+          	mark-fill: #ff0000;
+        }
+    };
+}
+/* @title: Road Secondary */
+[f_code = 'AP030' and rin_roi = '4'] {
+    [@sd < 25M][@sd > 2.5M] {
+      	stroke-width: 1.14, 0.9;
+      	stroke: #000000, #cb171a;
+    };
+  	[@sd < 2.5M][@sd > 500k] {
+      	stroke-width: 1.5, 1.14;
+      	stroke: #000000, #cb171a;
+    };
+  	[@sd < 500k][@sd > 100k] {
+      	stroke-width: 3, 2.25;
+      	stroke: #000000, #cb171a;
+    };
+  	[@sd < 100k][@sd > 5000] {
+      	stroke-width: 6.3, 4.655;
+      	stroke: #000000, #cb171a;
+    };
+  	[@sd < 5000][@sd > 100] {
+      	stroke-width: 12, 8;
+      	stroke: #000000, #cb171a;
+    };
+}
+
+/*@title: Cart Track*/
+[f_code = 'AP010'] {
+    [@sd < 25M][@sd > 2.5M] {
+      	stroke-width: 1.14, 0.9, 0.9;
+      	stroke: #000000, #f7ab82, #ffffff;
+      	stroke-dasharray: 1 0, 1 0, 1.870 4.124 0.625 1.375;
+    };
+  	[@sd < 2.5M][@sd > 500k] {
+      	stroke-width: 1.5, 1.14, 1.14;
+      	stroke: #000000, #f7ab82, #ffffff;
+      	stroke-dasharray: 1 0, 1 0, 2.415 5.323 0.807 1.774;
+    };
+  	[@sd < 500k][@sd > 100k] {
+      	stroke-width: 3, 2.25, 2.25;
+      	stroke: #000000, #f7ab82, #ffffff;
+      	stroke-dasharray: 1 0, 4.797 10.577 1.603 3.526, 1 0;
+    };
+  	[@sd < 100k][@sd > 5000] {
+      	stroke-width: 6.3, 4.655, 4.655;
+      	stroke: #000000, #f7ab82, #ffffff;
+      	stroke-dasharray: 1 0, 1 0, 10 22 3.333 7.333;
+    };
+  	[@sd < 5000][@sd > 100] {
+      	stroke-width: 12, 8, 8;
+      	stroke: #000000, #f7ab82, #ffffff;
+      	stroke-dasharray: 1 0, 1 0, 18.100 39.820 6.033 13.273;
+    };
+}
+
+/* @title: Street */
+[f_code = 'AP030' and rin_roi = '5'] {
+    [@sd < 25M][@sd > 2.5M] {
+      	stroke-width: 0.855, 0.675;
+      	stroke: #000000, #ffffff;
+    };
+  	[@sd < 2.5M][@sd > 500k] {
+      	stroke-width: 1.125, 0.855;
+      	stroke: #000000, #ffffff;
+    };
+  	[@sd < 500k][@sd > 100k] {
+      	stroke-width: 2.250, 1.688;
+      	stroke: #000000, #ffffff;
+    };
+  	[@sd < 100k][@sd > 5000] {
+      	stroke-width: 4.725, 3.491;
+      	stroke: #000000, #ffffff;
+    };
+  	[@sd < 5000][@sd > 100] {
+      	stroke-width: 9, 6;
+      	stroke: #000000, #ffffff;
+    };
+}
+
+/* @title: Trail */
+[f_code = 'AP050'] {
+  	[@sd < 100k][@sd > 5000] {
+      	stroke-width: 2.363, 2.363;
+      	stroke: #000000, #ffffff;
+      	stroke-dasharray: 1 0, 5 9 1.5 2.5;
+    };
+  	[@sd < 5000][@sd > 100] {
+      	stroke-width: 4.5, 4.5;
+      	stroke: #000000, #ffffff;
+      	stroke-dasharray: 1 0, 10 18 3 5;
+    };
+}
