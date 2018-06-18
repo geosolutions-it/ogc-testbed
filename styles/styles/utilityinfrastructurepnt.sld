@@ -9,17 +9,17 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>osm_tags_power</ogc:PropertyName>
+                <ogc:PropertyName>F_CODE</ogc:PropertyName>
+                <ogc:Literal>AT042</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>OSM_T_POW</ogc:PropertyName>
                 <ogc:Literal>tower</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo>
-                <ogc:PropertyName>hgt</ogc:PropertyName>
+                <ogc:PropertyName>HGT</ogc:PropertyName>
                 <ogc:Literal>46</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>f_code</ogc:PropertyName>
-                <ogc:Literal>AT042</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
           <sld:MaxScaleDenominator>35000.0</sld:MaxScaleDenominator>
@@ -64,17 +64,17 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>osm_tags_power</ogc:PropertyName>
+                <ogc:PropertyName>F_CODE</ogc:PropertyName>
+                <ogc:Literal>AT042</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>OSM_T_POW</ogc:PropertyName>
                 <ogc:Literal>tower</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo>
-                <ogc:PropertyName>hgt</ogc:PropertyName>
+                <ogc:PropertyName>HGT</ogc:PropertyName>
                 <ogc:Literal>46</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>f_code</ogc:PropertyName>
-                <ogc:Literal>AT042</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
           <sld:MinScaleDenominator>35000.0</sld:MinScaleDenominator>
@@ -94,17 +94,17 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>osm_tags_power</ogc:PropertyName>
+                <ogc:PropertyName>F_CODE</ogc:PropertyName>
+                <ogc:Literal>AT042</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>OSM_T_POW</ogc:PropertyName>
                 <ogc:Literal>tower</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsLessThan>
-                <ogc:PropertyName>hgt</ogc:PropertyName>
+                <ogc:PropertyName>HGT</ogc:PropertyName>
                 <ogc:Literal>46</ogc:Literal>
               </ogc:PropertyIsLessThan>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>f_code</ogc:PropertyName>
-                <ogc:Literal>AT042</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
           <sld:MaxScaleDenominator>35000.0</sld:MaxScaleDenominator>
@@ -149,17 +149,17 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>osm_tags_power</ogc:PropertyName>
+                <ogc:PropertyName>F_CODE</ogc:PropertyName>
+                <ogc:Literal>AT042</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>OSM_T_POW</ogc:PropertyName>
                 <ogc:Literal>tower</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsLessThan>
-                <ogc:PropertyName>hgt</ogc:PropertyName>
+                <ogc:PropertyName>HGT</ogc:PropertyName>
                 <ogc:Literal>46</ogc:Literal>
               </ogc:PropertyIsLessThan>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>f_code</ogc:PropertyName>
-                <ogc:Literal>AT042</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
           <sld:MinScaleDenominator>35000.0</sld:MinScaleDenominator>

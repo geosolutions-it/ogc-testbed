@@ -8,7 +8,7 @@
           <sld:Title>Lake</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>f_code</ogc:PropertyName>
+              <ogc:PropertyName>F_CODE</ogc:PropertyName>
               <ogc:Literal>BH082</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -27,7 +27,7 @@
           <sld:Title>Dam</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>f_code</ogc:PropertyName>
+              <ogc:PropertyName>F_CODE</ogc:PropertyName>
               <ogc:Literal>BI020</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -47,7 +47,7 @@
           <sld:Title>Dam</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>f_code</ogc:PropertyName>
+              <ogc:PropertyName>F_CODE</ogc:PropertyName>
               <ogc:Literal>BI020</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -69,7 +69,7 @@
           <sld:Title>Dam (No Transportation), Dam</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>f_code</ogc:PropertyName>
+              <ogc:PropertyName>F_CODE</ogc:PropertyName>
               <ogc:Literal>BI020</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

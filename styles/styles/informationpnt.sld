@@ -8,11 +8,11 @@
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsLike wildCard="%" singleChar="_" escape="\">
-                <ogc:PropertyName>osm_tags_is_in</ogc:PropertyName>
+                <ogc:PropertyName>OSM_T_IIN</ogc:PropertyName>
                 <ogc:Literal>%Syria%</ogc:Literal>
               </ogc:PropertyIsLike>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>osm_tags_place</ogc:PropertyName>
+                <ogc:PropertyName>OSM_T_PLA</ogc:PropertyName>
                 <ogc:Literal>locality</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:Or>
@@ -20,7 +20,7 @@
           <sld:MaxScaleDenominator>500000.0</sld:MaxScaleDenominator>
           <sld:TextSymbolizer>
             <sld:Label>
-              <ogc:PropertyName>osm_tags_name_en</ogc:PropertyName>
+              <ogc:PropertyName>OSM_T_ENG</ogc:PropertyName>
             </sld:Label>
             <sld:Font>
               <sld:CssParameter name="font-family">Open Sans</sld:CssParameter>
@@ -28,6 +28,14 @@
               <sld:CssParameter name="font-style">normal</sld:CssParameter>
               <sld:CssParameter name="font-weight">normal</sld:CssParameter>
             </sld:Font>
+            <sld:LabelPlacement>
+              <sld:PointPlacement>
+                <sld:AnchorPoint>
+                  <sld:AnchorPointX>0.5</sld:AnchorPointX>
+                  <sld:AnchorPointY>0.5</sld:AnchorPointY>
+                </sld:AnchorPoint>
+              </sld:PointPlacement>
+            </sld:LabelPlacement>
             <sld:Halo>
               <sld:Radius>1</sld:Radius>
               <sld:Fill>

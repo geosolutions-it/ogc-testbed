@@ -9,11 +9,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>f_code</ogc:PropertyName>
+                <ogc:PropertyName>F_CODE</ogc:PropertyName>
                 <ogc:Literal>EC015</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>osm_tags_landuse</ogc:PropertyName>
+                <ogc:PropertyName>OSM_T_LAN</ogc:PropertyName>
                 <ogc:Literal>forest</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>

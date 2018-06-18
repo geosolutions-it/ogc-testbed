@@ -7,7 +7,7 @@
         <sld:Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>f_code</ogc:PropertyName>
+              <ogc:PropertyName>F_CODE</ogc:PropertyName>
               <ogc:Literal>BH075</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -25,7 +25,7 @@
         <sld:Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>f_code</ogc:PropertyName>
+              <ogc:PropertyName>F_CODE</ogc:PropertyName>
               <ogc:Literal>AL130</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

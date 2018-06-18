@@ -9,11 +9,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>f_code</ogc:PropertyName>
+                <ogc:PropertyName>F_CODE</ogc:PropertyName>
                 <ogc:Literal>BH140</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>osm_tags_waterway</ogc:PropertyName>
+                <ogc:PropertyName>OSM_T_WAT</ogc:PropertyName>
                 <ogc:Literal>drain</ogc:Literal>
               </ogc:PropertyIsNotEqualTo>
             </ogc:And>
@@ -31,11 +31,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>f_code</ogc:PropertyName>
+                <ogc:PropertyName>F_CODE</ogc:PropertyName>
                 <ogc:Literal>BH140</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>osm_tags_waterway</ogc:PropertyName>
+                <ogc:PropertyName>OSM_T_WAT</ogc:PropertyName>
                 <ogc:Literal>drain</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>

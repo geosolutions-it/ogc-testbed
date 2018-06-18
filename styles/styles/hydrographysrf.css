@@ -1,5 +1,5 @@
 /* @title Lake */
-[f_code = 'BH082'] [@sd < 200k] {
+[F_CODE = 'BH082'] [@sd < 200k] {
 	fill: #B0E1ED;
   	stroke: #00A0C6;
   	stroke-width: 10m;
@@ -7,16 +7,16 @@
 }
 
 /* @title Dam (No Transportation)*/
-[f_code = 'BI020'] [@sd < 500k] {
+[F_CODE = 'BI020'] [@sd < 500k] {
 	stroke: #000000;
   	stroke-width: 20m;
   	z-index: 1; /* z index needed to visualize correctly all geometries*/
 }
 
 /* @title Dam*/
-[f_code = 'BI020'] [@sd < 500k] {
+[F_CODE = 'BI020'] [@sd < 500k] {
   	/* not visible if there is dam line */
-  	fill-geometry: [centroid(geom)];
+  	fill-geometry: [centroid(the_geom)];
   	mark: url('file://symbols/PT_Black_Dam.svg');
   	mark-mime: 'image/svg';
   	mark-size: 10m;

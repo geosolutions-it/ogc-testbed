@@ -8,7 +8,7 @@
           <sld:Title>Built Up Area</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>f_code</ogc:PropertyName>
+              <ogc:PropertyName>F_CODE</ogc:PropertyName>
               <ogc:Literal>AL020</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

@@ -1,6 +1,6 @@
 /* @title Sports Ground */
-[f_code = 'AK040'] [@sd < 80k] {
- 	fill-geometry: [wkb_geometry], [boundary(wkb_geometry)]; /* Outline ? */
+[F_CODE = 'AK040'] [@sd < 80k] {
+ 	fill-geometry: [the_geom], [boundary(the_geom)]; /* Outline ? */
   	fill: #E8F3E2, none;
   	stroke: none, #3EA250;
   	stroke-opacity: 0, 1;
@@ -9,7 +9,7 @@
  	stroke-offset: 2; /* Outline ? */
 }
 
-[f_code = 'AK040'] [@sd > 80k] [@sd < 200k] {
+[F_CODE = 'AK040'] [@sd > 80k] [@sd < 200k] {
   	/* not visible on small pitch*/ 
  	fill: url('file://symbols/sports_ground_wilson.svg');
     fill-mime: 'image/svg';

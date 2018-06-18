@@ -1,5 +1,5 @@
 /* @title Pylon */
-[f_code = 'AT042' and osm_tags_power = 'tower'] [@sd < 200k] {
+[F_CODE = 'AT042' and OSM_T_POW = 'tower'] [@sd < 200k] {
 	mark: url('file://symbols/modified/pylon_wilson.svg');
   	mark-mime: 'image/svg';
   	mark-size: 250m;
@@ -16,7 +16,7 @@
 }
 
 /* @title Vertical Obstruction */
-[f_code = 'AT042' and hgt >= 46 and osm_tags_power = 'tower'] [@sd < 200k] {
+[F_CODE = 'AT042' and HGT >= 46 and OSM_T_POW = 'tower'] [@sd < 200k] {
 	mark: url('file://symbols/PT_Blue072_VO.svg');
   	mark-mime: 'image/svg';
   	mark-size: 600m;

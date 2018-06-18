@@ -1,13 +1,27 @@
 
 # Import process
 
-Add osm_tags_... columns with `node ./extend.js myfile.gdb`, it will create files in extended folder.
+`npm install` is required to download related packages
 
-Import extended layers to postgres wit `node ./import.js`.
+# extend.js
+This script creates shapefiles from gdb file with additional columns genereted from osm tags.
+OSM tags need to be declared and mapped with the name of column in config.json:
 
-`npm install` is required to download related packages and remove remove-placeholder.txt files
-
-# extend.js arguments (optional)
+```
+{
+    "codes": {
+        "landuse": "OSM_T_LAN",
+        "waterway": "OSM_T_WAT",
+        "place": "OSM_T_PLA",
+        "is_in": "OSM_T_IIN",
+        "amenity": "OSM_T_AME",
+        "religion": "OSM_T_REL",
+        "power": "OSM_T_POW",
+        "name:en": "OSM_T_ENG"
+    }
+}
+```
+shapefiles could be find in ./shapefiles folder of data_dir
 
 ```
 node ./extend.js fileSrc targetSrs srcSrs ogr2ogr
@@ -17,8 +31,13 @@ node ./extend.js fileSrc targetSrs srcSrs ogr2ogr
 - srcSrs: srs of source, default 'EPSG:4326'
 - ogr2ogr: bin path or 'ogr2ogr', default 'C:/OSGeo4W64/bin/ogr2ogr'
 
-# import.js arguments (optional)
+# import shapefiles with shp2pgsql (not needed)
+if you need to work with postgres/postigis you can import generated shapefiles with shp2pgsql
+- geometry name: the_geom
+- preserve case of columns
 
+# import.js deprecated (not needed)
+use shp2pgsql instead this method doesn't preserve case of columns
 ```
 node ./import.js dbname host port user password ogr2ogr
 ```

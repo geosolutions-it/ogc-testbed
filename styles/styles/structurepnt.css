@@ -1,5 +1,5 @@
 /* @title: Building, General */
-[f_code = 'AL013' and osm_tags_amenity <> 'public_building' and osm_tags_amenity <> 'college' and osm_tags_amenity <> 'place_of_worship'] {
+[F_CODE = 'AL013' and OSM_T_AME <> 'public_building' and OSM_T_AME <> 'college' and OSM_T_AME <> 'place_of_worship'] {
   	/* < 200k in the document */
     [@sd < 100k] {
       mark: url('file://symbols/building.svg');
@@ -14,7 +14,7 @@
 }
 
 /* @title: Building, Mosque */
-[f_code = 'AL013' and osm_tags_religion = 'muslim' and osm_tags_amenity = 'place_of_worship'] {
+[F_CODE = 'AL013' and OSM_T_REL = 'muslim' and OSM_T_AME = 'place_of_worship'] {
   [@sd < 100k] {
     mark: url('file://symbols/AR_Black_Mosque.svg');
     mark-mime: 'image/svg';
@@ -28,7 +28,7 @@
 }
 
 /* @title: Building, School */
-[f_code = 'AL013' and osm_tags_amenity = 'college'] {
+[F_CODE = 'AL013' and OSM_T_AME = 'college'] {
   [@sd < 100k] {
     mark: url('file://symbols/PT_Black_School.svg');
     mark-mime: 'image/svg';
@@ -42,7 +42,7 @@
 }
 
 /* @title: Building, Public */
-[f_code = 'AL013' and osm_tags_amenity = 'public_building'] [@sd < 200k] {
+[F_CODE = 'AL013' and OSM_T_AME = 'public_building'] [@sd < 200k] {
   /* wrong legend with oth = ' (FFN:public_building)' but equal as records */
   mark: url('file://symbols/building.svg');
   mark-mime: 'image/svg';

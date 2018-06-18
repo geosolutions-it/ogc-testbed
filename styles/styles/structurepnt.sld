@@ -9,16 +9,16 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>osm_tags_amenity</ogc:PropertyName>
+                <ogc:PropertyName>F_CODE</ogc:PropertyName>
+                <ogc:Literal>AL013</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>OSM_T_AME</ogc:PropertyName>
                 <ogc:Literal>place_of_worship</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>osm_tags_religion</ogc:PropertyName>
+                <ogc:PropertyName>OSM_T_REL</ogc:PropertyName>
                 <ogc:Literal>muslim</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>f_code</ogc:PropertyName>
-                <ogc:Literal>AL013</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -38,16 +38,16 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>osm_tags_amenity</ogc:PropertyName>
+                <ogc:PropertyName>F_CODE</ogc:PropertyName>
+                <ogc:Literal>AL013</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>OSM_T_AME</ogc:PropertyName>
                 <ogc:Literal>place_of_worship</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>osm_tags_religion</ogc:PropertyName>
+                <ogc:PropertyName>OSM_T_REL</ogc:PropertyName>
                 <ogc:Literal>muslim</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>f_code</ogc:PropertyName>
-                <ogc:Literal>AL013</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -67,22 +67,22 @@
           <sld:Title>Building, General</sld:Title>
           <ogc:Filter>
             <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>F_CODE</ogc:PropertyName>
+                <ogc:Literal>AL013</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>osm_tags_amenity</ogc:PropertyName>
+                <ogc:PropertyName>OSM_T_AME</ogc:PropertyName>
                 <ogc:Literal>college</ogc:Literal>
               </ogc:PropertyIsNotEqualTo>
               <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>osm_tags_amenity</ogc:PropertyName>
+                <ogc:PropertyName>OSM_T_AME</ogc:PropertyName>
                 <ogc:Literal>place_of_worship</ogc:Literal>
               </ogc:PropertyIsNotEqualTo>
               <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>osm_tags_amenity</ogc:PropertyName>
+                <ogc:PropertyName>OSM_T_AME</ogc:PropertyName>
                 <ogc:Literal>public_building</ogc:Literal>
               </ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>f_code</ogc:PropertyName>
-                <ogc:Literal>AL013</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
           <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
@@ -100,22 +100,22 @@
           <sld:Title>Building, General</sld:Title>
           <ogc:Filter>
             <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>F_CODE</ogc:PropertyName>
+                <ogc:Literal>AL013</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>osm_tags_amenity</ogc:PropertyName>
+                <ogc:PropertyName>OSM_T_AME</ogc:PropertyName>
                 <ogc:Literal>college</ogc:Literal>
               </ogc:PropertyIsNotEqualTo>
               <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>osm_tags_amenity</ogc:PropertyName>
+                <ogc:PropertyName>OSM_T_AME</ogc:PropertyName>
                 <ogc:Literal>place_of_worship</ogc:Literal>
               </ogc:PropertyIsNotEqualTo>
               <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>osm_tags_amenity</ogc:PropertyName>
+                <ogc:PropertyName>OSM_T_AME</ogc:PropertyName>
                 <ogc:Literal>public_building</ogc:Literal>
               </ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>f_code</ogc:PropertyName>
-                <ogc:Literal>AL013</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
           <sld:MinScaleDenominator>100000.0</sld:MinScaleDenominator>
@@ -136,25 +136,25 @@
             <ogc:And>
               <ogc:Or>
                 <ogc:PropertyIsNotEqualTo>
-                  <ogc:PropertyName>osm_tags_amenity</ogc:PropertyName>
+                  <ogc:PropertyName>F_CODE</ogc:PropertyName>
+                  <ogc:Literal>AL013</ogc:Literal>
+                </ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyIsNotEqualTo>
+                  <ogc:PropertyName>OSM_T_AME</ogc:PropertyName>
                   <ogc:Literal>place_of_worship</ogc:Literal>
                 </ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyIsNotEqualTo>
-                  <ogc:PropertyName>osm_tags_religion</ogc:PropertyName>
+                  <ogc:PropertyName>OSM_T_REL</ogc:PropertyName>
                   <ogc:Literal>muslim</ogc:Literal>
-                </ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyIsNotEqualTo>
-                  <ogc:PropertyName>f_code</ogc:PropertyName>
-                  <ogc:Literal>AL013</ogc:Literal>
                 </ogc:PropertyIsNotEqualTo>
               </ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>osm_tags_amenity</ogc:PropertyName>
-                <ogc:Literal>college</ogc:Literal>
+                <ogc:PropertyName>F_CODE</ogc:PropertyName>
+                <ogc:Literal>AL013</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>f_code</ogc:PropertyName>
-                <ogc:Literal>AL013</ogc:Literal>
+                <ogc:PropertyName>OSM_T_AME</ogc:PropertyName>
+                <ogc:Literal>college</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -175,25 +175,25 @@
             <ogc:And>
               <ogc:Or>
                 <ogc:PropertyIsNotEqualTo>
-                  <ogc:PropertyName>osm_tags_amenity</ogc:PropertyName>
+                  <ogc:PropertyName>F_CODE</ogc:PropertyName>
+                  <ogc:Literal>AL013</ogc:Literal>
+                </ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyIsNotEqualTo>
+                  <ogc:PropertyName>OSM_T_AME</ogc:PropertyName>
                   <ogc:Literal>place_of_worship</ogc:Literal>
                 </ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyIsNotEqualTo>
-                  <ogc:PropertyName>osm_tags_religion</ogc:PropertyName>
+                  <ogc:PropertyName>OSM_T_REL</ogc:PropertyName>
                   <ogc:Literal>muslim</ogc:Literal>
-                </ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyIsNotEqualTo>
-                  <ogc:PropertyName>f_code</ogc:PropertyName>
-                  <ogc:Literal>AL013</ogc:Literal>
                 </ogc:PropertyIsNotEqualTo>
               </ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>osm_tags_amenity</ogc:PropertyName>
-                <ogc:Literal>college</ogc:Literal>
+                <ogc:PropertyName>F_CODE</ogc:PropertyName>
+                <ogc:Literal>AL013</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>f_code</ogc:PropertyName>
-                <ogc:Literal>AL013</ogc:Literal>
+                <ogc:PropertyName>OSM_T_AME</ogc:PropertyName>
+                <ogc:Literal>college</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -215,25 +215,25 @@
             <ogc:And>
               <ogc:Or>
                 <ogc:PropertyIsNotEqualTo>
-                  <ogc:PropertyName>osm_tags_amenity</ogc:PropertyName>
+                  <ogc:PropertyName>F_CODE</ogc:PropertyName>
+                  <ogc:Literal>AL013</ogc:Literal>
+                </ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyIsNotEqualTo>
+                  <ogc:PropertyName>OSM_T_AME</ogc:PropertyName>
                   <ogc:Literal>place_of_worship</ogc:Literal>
                 </ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyIsNotEqualTo>
-                  <ogc:PropertyName>osm_tags_religion</ogc:PropertyName>
+                  <ogc:PropertyName>OSM_T_REL</ogc:PropertyName>
                   <ogc:Literal>muslim</ogc:Literal>
-                </ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyIsNotEqualTo>
-                  <ogc:PropertyName>f_code</ogc:PropertyName>
-                  <ogc:Literal>AL013</ogc:Literal>
                 </ogc:PropertyIsNotEqualTo>
               </ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>osm_tags_amenity</ogc:PropertyName>
-                <ogc:Literal>public_building</ogc:Literal>
+                <ogc:PropertyName>F_CODE</ogc:PropertyName>
+                <ogc:Literal>AL013</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>f_code</ogc:PropertyName>
-                <ogc:Literal>AL013</ogc:Literal>
+                <ogc:PropertyName>OSM_T_AME</ogc:PropertyName>
+                <ogc:Literal>public_building</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -255,25 +255,25 @@
             <ogc:And>
               <ogc:Or>
                 <ogc:PropertyIsNotEqualTo>
-                  <ogc:PropertyName>osm_tags_amenity</ogc:PropertyName>
+                  <ogc:PropertyName>F_CODE</ogc:PropertyName>
+                  <ogc:Literal>AL013</ogc:Literal>
+                </ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyIsNotEqualTo>
+                  <ogc:PropertyName>OSM_T_AME</ogc:PropertyName>
                   <ogc:Literal>place_of_worship</ogc:Literal>
                 </ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyIsNotEqualTo>
-                  <ogc:PropertyName>osm_tags_religion</ogc:PropertyName>
+                  <ogc:PropertyName>OSM_T_REL</ogc:PropertyName>
                   <ogc:Literal>muslim</ogc:Literal>
-                </ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyIsNotEqualTo>
-                  <ogc:PropertyName>f_code</ogc:PropertyName>
-                  <ogc:Literal>AL013</ogc:Literal>
                 </ogc:PropertyIsNotEqualTo>
               </ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>osm_tags_amenity</ogc:PropertyName>
-                <ogc:Literal>public_building</ogc:Literal>
+                <ogc:PropertyName>F_CODE</ogc:PropertyName>
+                <ogc:Literal>AL013</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>f_code</ogc:PropertyName>
-                <ogc:Literal>AL013</ogc:Literal>
+                <ogc:PropertyName>OSM_T_AME</ogc:PropertyName>
+                <ogc:Literal>public_building</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>

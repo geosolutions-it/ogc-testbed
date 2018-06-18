@@ -23,10 +23,10 @@
       <id>LayerInfoImpl--36009806:163cf54ecf5:-7fd6</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--36009806:163cf54ecf5:-7fdc</id>
+      <id>LayerInfoImpl--2d736656:163cf945440:-7fc0</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--2d736656:163cf945440:-7fc0</id>
+      <id>LayerInfoImpl--36009806:163cf54ecf5:-7fdc</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl--36009806:163cf54ecf5:-7fd2</id>
@@ -41,46 +41,22 @@
       <id>LayerInfoImpl--36009806:163cf54ecf5:-7fd8</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--39bfa24e:163d0084147:-7ffb</id>
+      <id>LayerInfoImpl--361aa106:163f3d682f3:-7f73</id>
     </published>
   </publishables>
   <styles>
-    <style>
-      <id>StyleInfoImpl--2d736656:163cf945440:-7fee</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--2d736656:163cf945440:-7f96</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--2d736656:163cf945440:-7ff3</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--2d736656:163cf945440:-7ffa</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--2d736656:163cf945440:-7fe2</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--2d736656:163cf945440:-7fd5</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--2d736656:163cf945440:-7fe5</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--2d736656:163cf945440:-7fc2</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--2d736656:163cf945440:-7fb9</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--2d736656:163cf945440:-7fcd</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--2d736656:163cf945440:-7fb2</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--2d736656:163cf945440:-7fdc</id>
-    </style>
+    <style/>
+    <style/>
+    <style/>
+    <style/>
+    <style/>
+    <style/>
+    <style/>
+    <style/>
+    <style/>
+    <style/>
+    <style/>
+    <style/>
     <style>
       <id>StyleInfoImpl--39bfa24e:163d0084147:-7ff9</id>
     </style>

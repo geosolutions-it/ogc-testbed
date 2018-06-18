@@ -9,11 +9,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>f_code</ogc:PropertyName>
+                <ogc:PropertyName>F_CODE</ogc:PropertyName>
                 <ogc:Literal>AT005</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>osm_tags_power</ogc:PropertyName>
+                <ogc:PropertyName>OSM_T_POW</ogc:PropertyName>
                 <ogc:Literal>line</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>

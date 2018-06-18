@@ -8,14 +8,14 @@
           <sld:Title>Sports Ground</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>f_code</ogc:PropertyName>
+              <ogc:PropertyName>F_CODE</ogc:PropertyName>
               <ogc:Literal>AK040</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:MaxScaleDenominator>80000.0</sld:MaxScaleDenominator>
           <sld:PolygonSymbolizer>
             <sld:Geometry>
-              <ogc:PropertyName>wkb_geometry</ogc:PropertyName>
+              <ogc:PropertyName>the_geom</ogc:PropertyName>
             </sld:Geometry>
             <sld:Fill>
               <sld:CssParameter name="fill">#E8F3E2</sld:CssParameter>
@@ -24,7 +24,7 @@
           <sld:PolygonSymbolizer>
             <sld:Geometry>
               <ogc:Function name="boundary">
-                <ogc:PropertyName>wkb_geometry</ogc:PropertyName>
+                <ogc:PropertyName>the_geom</ogc:PropertyName>
               </ogc:Function>
             </sld:Geometry>
             <sld:Fill>
@@ -52,7 +52,7 @@
         <sld:Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>f_code</ogc:PropertyName>
+              <ogc:PropertyName>F_CODE</ogc:PropertyName>
               <ogc:Literal>AK040</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
