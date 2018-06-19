@@ -7,8 +7,8 @@
         <sld:Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>F_CODE</ogc:PropertyName>
-              <ogc:Literal>BH075</ogc:Literal>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>reunification</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:MaxScaleDenominator>35000.0</sld:MaxScaleDenominator>
@@ -25,8 +25,8 @@
         <sld:Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>F_CODE</ogc:PropertyName>
-              <ogc:Literal>AL130</ogc:Literal>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>info_point</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:MaxScaleDenominator>35000.0</sld:MaxScaleDenominator>

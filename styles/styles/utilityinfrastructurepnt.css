@@ -5,7 +5,7 @@
   	mark-size: 250m;
   	[@sd < 35k] {
         label: 'Pylon';
-        font-family: "Open Sans"; /* Universal*/
+        font-family: "Open Sans";
         font-size: 12;
         font-fill: #000000;
         halo-color: #ffffff;
@@ -22,7 +22,7 @@
   	mark-size: 600m;
   	[@sd < 35k] {
         label: 'Pylon';
-        font-family: "Open Sans"; /* Universal*/
+        font-family: "Open Sans";
         font-size: 12;
         font-fill: #000000;
         halo-color: #ffffff;

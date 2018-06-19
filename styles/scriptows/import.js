@@ -3,7 +3,7 @@
 const {exec} = require('child_process');
 const fs = require('fs');
 
-const dbname = process.argv[2] !== 'null' && process.argv[2] || 'ows';
+const dbname = process.argv[2] !== 'null' && process.argv[2] || 'daraa';
 const host = process.argv[3] !== 'null' && process.argv[3] || 'localhost';
 const port = process.argv[4] !== 'null' && process.argv[4] || '5432';
 const user = process.argv[5] !== 'null' && process.argv[5] || 'postgres';

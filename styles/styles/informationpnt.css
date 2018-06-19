@@ -1,9 +1,7 @@
 /* Geographic Name */
 [OSM_T_IIN LIKE '%Syria%' or OSM_T_PLA = 'locality'] [@sd < 500k] {
-    /*  uses LIKE because of value (eg: Syria, ????????? ??????? ??????? ? ?????) */
-    /*  [f_code = 'ZD040'] doesn't work, creates wrong SLD */
     label: [OSM_T_ENG];
-    font-family: "Open Sans"; /* Universal font ? */
+    font-family: "Open Sans";
     font-size: 10;
     font-fill: #000000;
     halo-color: #ffffff;
